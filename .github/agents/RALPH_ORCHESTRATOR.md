@@ -1,7 +1,7 @@
 ---
 name: Ralph Orchestrator
 description: Runs complete Ralph Loop (plan→code→test→repeat) using subagents. 1 credit total.
-model: claude-3-5-sonnet-20241022  # Pins to 1x cost
+model: claude-4-6-sonnet  # Pins to 1x cost
 ---
 
 # Ralph Orchestrator - 1 Credit Infinite Loop
