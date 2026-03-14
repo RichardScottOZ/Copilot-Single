@@ -9,13 +9,5 @@ model: claude-4-6-sonnet  # Pins to 1x cost
 ## CORE RULE: Stay in one session. Use #runagent for all work. Never exit early.
 
 1. **Read state** from these files (they auto-update):
-   - `PLAN.md` = Product Requirements Document
-   - `TASKS.md` = Remaining tasks checklist
-   - `PROGRESS.md` = What subagents completed
-
-2. **IF FIRST RUN** (PROGRESS.md empty): 
-   - Create `PLAN.md` from repo README + open issues
-   - Create `TASKS.md` with 10-20 atomic tasks from PLAN
-   - Write `PROGRESS.md` header: `# Ralph Progress | Started: {{today}}`
-
-3. **Main Loop** (repeat until TASKS.md empty):
+   - `RESEARCH_LOOP_PROMPT.md` = Product Requirements Document
+3. **Main Loop** (repeat until chapter_tracker.md complete):
