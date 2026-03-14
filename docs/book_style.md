@@ -33,7 +33,7 @@ Use this guide for every chapter and section draft.
 ## File naming
 
 - Write chapter outputs as Markdown files under part directories such as:
-  - `docs/part1/2.1 Im in Danger Feedback Loops.md`
+  - `docs/part1/2.1 I'm in Danger Feedback Loops.md`
 
 ## Verification standard
 
